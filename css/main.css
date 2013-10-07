@@ -52,14 +52,14 @@ html {
 h1 {
 	color: white;
 	font-family: Aleo;
-	font-size: 3.5em;
+	font-size: 3.6em;
 	margin-left: 5px;
 }
 
 h3 {
   color:#2B2B2B;
   font-family: Aleo;
-  font-size: 1.0em;
+  font-size: 1.25em;
   margin-left: 15px;
   margin-top: 10px;
 }
@@ -79,8 +79,8 @@ span {
 }
 
 .icons {
-	margin-top: 12px;
-	margin-left: 15px;
+	margin-top: 30px;
+	margin-left: 65px;
 	font-size: 75px;
 	color: #2B2B2B;
 }
