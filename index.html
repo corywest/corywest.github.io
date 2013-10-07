@@ -1,13 +1,46 @@
----
-layout: default
-title: Your New Jekyll Site
----
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Cory Westerfield</title>
+        <meta name="viewport" content="width=device-width">
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+
+    </head>
+    <body>
+      <div class="container">
+        <div id="background">
+        <h1> Hi there. I'm Cory. </h1>
+          <h3>
+            Here are some fun facts you should know about me:
+            <ul>
+            <li>Recent graduate of Dev Bootcamp-Chicago.</li>
+            <li>Currently live in Denver, CO.</li>
+            <li>Big fan of <span>Ruby</span> development.</li>
+            <li>Always playing around with new technologies.</li>
+            
+            </ul>
+            <div class="icons">
+            <a href="https://github.com/corywest"><i class="icon-github"></a></i>
+            <a href="https://twitter.com/cory_west"><i class="icon-twitter"></a></i>
+            <a href="http://linkedin.com/in/corywesterfield/"><i class="icon-linkedin"></a></i>
+            <a href="http://instagram.com/cory_west"><i class="icon-instagram"></a></i>
+            </div>
+          </h3>
+        </div>
+      </div>
+
+      <div class="footer">
+      </div>
+        
+
+    </body>
+</html>
